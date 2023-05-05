@@ -29,10 +29,9 @@ public class binarySearch {
 
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
 		int arr[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
-		System.out.print("Enter value to search in array : ");
-		int k = sc.nextInt();
+		int k =10;
+		System.out.print("Enter value to search in array : "+k);
 		
 		binarySearch b = new binarySearch();
 		if(b.search(arr,k)==0) System.out.println("Not found");

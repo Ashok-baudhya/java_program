@@ -22,9 +22,9 @@ public class armstrong {
 	
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter Number");
-		int n = sc.nextInt();
+		
+		int n = 105;
+		System.out.println("Enter Number"+n);
 		armstrong ar = new armstrong();
 		ar.checkArmstrong(n);
 
